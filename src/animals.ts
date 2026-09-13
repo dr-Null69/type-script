@@ -12,7 +12,6 @@ interface Animal {
     swim?(): void;
 }
 
-// 2. Клас Cat (Кіт)
 class Cat implements Animal {
     name: string;
     age: number;
@@ -33,7 +32,6 @@ class Cat implements Animal {
     }
 }
 
-// 3. Клас Bird (Птах)
 class Bird implements Animal {
     name: string;
     age: number;
@@ -54,7 +52,6 @@ class Bird implements Animal {
     }
 }
 
-// 4. Клас Fish (Риба)
 class Fish implements Animal {
     name: string;
     age: number;
