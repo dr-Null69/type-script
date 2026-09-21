@@ -1,4 +1,4 @@
-import promptSync = require("prompt-sync");
+import promptSync from "prompt-sync";
 
 const prompt = promptSync();
 
