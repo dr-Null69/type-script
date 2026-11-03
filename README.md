@@ -37,12 +37,12 @@ Analyzed REPORT_LAB7.md:L25-50
 
 | Інструмент | Тип тесту | Профіль (VUs / Threads) | Всього запитів | Throughput (req/s) | Avg Response Time | p95 Response Time | Error Rate (%) | Статус Thresholds |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **k6** | **Baseline** | 1 VU (30 s) | 494 | **16.4 req/s** | **10.2 ms** | **16.4 ms** | **0.00%** | ✅ PASSED |
-| **k6** | **Load** | 15 VUs (1m 15s) | 8,280 | **110.3 req/s** | **38.6 ms** | **173.4 ms** | **41.08%** | ❌ FAILED (помилки) |
-| **k6** | **Stress** | 60 VUs (1m 00s) | 7,920 | **131.8 req/s** | **169.8 ms** | **415.6 ms** | **70.47%** | ❌ FAILED (помилки) |
-| **JMeter** | **Baseline** | 1 Thread (30 s) | 268 | **9.0 req/s** | **5.9 ms** | **13.0 ms** | **0.00%** | ✅ PASSED |
-| **JMeter** | **Load** | 15 Threads (60 s) | 6,525 | **109.2 req/s** | **15.5 ms** | **41.0 ms** | **48.92%** | ❌ FAILED (помилки) |
-| **JMeter** | **Stress** | 60 Threads (45 s) | 10,225 | **226.2 req/s** | **115.2 ms** | **193.0 ms** | **50.03%** | ❌ FAILED (помилки) |
+| **k6** | **Baseline** | 1 VU (30 s) | 494 | **16.4 req/s** | **10.2 ms** | **16.4 ms** | **0.00%** | PASSED |
+| **k6** | **Load** | 15 VUs (1m 15s) | 8,280 | **110.3 req/s** | **38.6 ms** | **173.4 ms** | **41.08%** | FAILED (помилки) |
+| **k6** | **Stress** | 60 VUs (1m 00s) | 7,920 | **131.8 req/s** | **169.8 ms** | **415.6 ms** | **70.47%** | FAILED (помилки) |
+| **JMeter** | **Baseline** | 1 Thread (30 s) | 268 | **9.0 req/s** | **5.9 ms** | **13.0 ms** | **0.00%** | PASSED |
+| **JMeter** | **Load** | 15 Threads (60 s) | 6,525 | **109.2 req/s** | **15.5 ms** | **41.0 ms** | **48.92%** | FAILED (помилки) |
+| **JMeter** | **Stress** | 60 Threads (45 s) | 10,225 | **226.2 req/s** | **115.2 ms** | **193.0 ms** | **50.03%** | FAILED (помилки) |
 
 ---
 
